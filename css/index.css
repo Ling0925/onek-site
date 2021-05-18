@@ -1,0 +1,41 @@
+body,html{
+  padding: 0%;
+  margin: 0%;
+  height: 100%;
+  widows: 100%;
+}
+.main {
+  background: #424242;
+  margin: 0% auto;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main h1{
+  color: white;
+  font-size: 10em;
+  margin: 0%;
+  align-items: center;
+}
+
+.main h1>span{
+  color: transparent;
+  background-image: url("/img/kbg.png");
+  background-size: 1em 1em;
+  background-clip: text;
+  -webkit-text-stroke: 2px #191919;
+  -webkit-background-clip: text;
+}
+
+.main p{
+  font-size: 1.2em;
+}
+
+.main h1,p,a{
+  line-height: 100%;
+  text-align: center;
+  color: white;
+}
