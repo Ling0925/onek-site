@@ -23,7 +23,7 @@ body,html{
 
 .main h1>span{
   color: transparent;
-  background-image: url("/img/kbg.png");
+/**  background-image: url("/img/kbg.png"); */
   background-size: 1em 1em;
   background-clip: text;
   -webkit-text-stroke: 2px #191919;
